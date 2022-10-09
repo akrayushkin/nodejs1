@@ -1,7 +1,11 @@
-const fs = require('fs');
+/* const fs = require('fs');
 const path = require('path');
 const csv = require('csvtojson');
-const { pipeline } = require('stream');
+const { pipeline } = require('stream'); */
+import * as fs from 'fs';
+import * as path from 'path';
+import csv from 'csvtojson';
+import { pipeline } from 'stream';
 
 const csvFilePath = path.join(__dirname, 'csv', 'nodejs-hw1-ex1.csv');
 const jsonFilePath = path.join(__dirname, 'json', 'nodejs-hw1-ex1.json');

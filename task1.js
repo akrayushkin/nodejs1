@@ -1,4 +1,5 @@
-const readline = require('readline');
+//const readline = require('readline');
+import * as readline from "readline";
 
 const lineReverse = (line) => line.split("").reverse().join("");
 
